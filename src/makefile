@@ -37,18 +37,6 @@ C_SRC = $(wildcard *.c)           \
 	  $(wildcard netif/ppp/*.c)   \
 	  $(wildcard netif/*.c)   \
 	  $(wildcard netif/ppp/polarssl/*.c)   \
-	  $(wildcard include/compat/posix/arpa/*.h)   \
-	  $(wildcard include/compat/posix/net/*.h)   \
-	  $(wildcard include/compat/posix/sys/*.h)   \
-	  $(wildcard include/compat/posix/*.h)   \
-	  $(wildcard include/compat/stdc/*.h)   \
-	  $(wildcard include/lwip/*.h)   \
-	  $(wildcard include/lwip/apps/*.h)   \
-	  $(wildcard include/lwip/priv/*.h)   \
-	  $(wildcard include/lwip/prot/*.h)   \
-	  $(wildcard include/netif/*.h)   \
-	  $(wildcard include/netif/ppp/*.h)   \
-	  $(wildcard include/netif/ppp/polarssl/*.h)   \
 
 # Object files.
 OBJ = $(C_SRC:.c=.o)   \
